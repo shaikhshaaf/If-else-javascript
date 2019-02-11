@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		var age=23;
+		if (age<0)
+			console.log("age is negative");
+		else if (age==22)
+			console.log("22nd happy birthday");
+		else if (age%2!=0)
+			console.log("age is odd");
+		else if (age%2==0)
+			console.log("age is even");
+		else {
+			console.log("u r doing goood");
+		}
+          
+
+
+          // var age=22;
+          // if (age<0)
+          // 	console.log("age is negative");
+          // else if (age==22)
+          // 	console.log("22nd birthday");
+          // else if ("age%")
+
+         //switch method
+
+         var day;
+         switch (new Date().getDay()) {
+         	case 0:
+         	day = "sunday";
+         	break;
+         	 case 1:
+            day = "Monday";
+            break;
+            case 2:
+            day = "Tuesday";
+            break;
+            case 3:
+            day = "Wednesday";
+            break;
+            case 4:
+            day = "Thursday";
+            break;
+            case 5:
+            day = "Friday";
+            break;
+            case  6:
+           day = "Saturday";
+          }
+            document.getElementById("demo").innerHTML = "Today is " + day;
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
